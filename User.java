@@ -638,9 +638,6 @@ class User extends JFrame implements ActionListener
 	}
 	
 
-	public static void main(String a[])
-{
-new User();
-}
+
 	
 }
