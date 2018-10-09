@@ -53,7 +53,7 @@ class User extends JFrame implements ActionListener
 		heading.setLayout(null);
 		heading.setBounds(0,0,800,120);
 		heading_text = new JLabel("Book Shelf", SwingConstants.CENTER);
-		heading_text.setBounds(230,0,300,150);
+		heading_text.setBounds(230,0,400,150);
 		heading_text.setForeground(Color.WHITE);
 		heading.setBackground(new Color(0,0,0,80));
 		heading_text.setFont(head);
@@ -636,6 +636,11 @@ class User extends JFrame implements ActionListener
 		}
 
 	}
+	
 
+	public static void main(String a[])
+{
+new User();
+}
 	
 }
